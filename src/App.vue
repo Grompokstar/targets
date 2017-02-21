@@ -5,6 +5,9 @@
 </template>
 
 <script>
+  window.$ = window.jQuery = require('jquery');
+  window._ = require('underscore');
+
 export default {
   name: 'app'
 }

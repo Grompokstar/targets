@@ -31,6 +31,12 @@ module.exports = {
       'components': resolve('src/components')
     }
   },
+  plugins: [
+    /*new webpack.ProvidePlugin({
+      _: "jquery",
+      jQuery: "jquery"
+    })*/
+  ],
   module: {
     rules: [
       {
