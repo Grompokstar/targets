@@ -1,6 +1,11 @@
 <template>
     <div id="targets">
         <h1>{{title}}</h1>
+        <div class="row">
+            <div class="col-md-4">1</div>
+            <div class="col-md-4">2</div>
+            <div class="col-md-4">3</div>
+        </div>
         <input type="text" autofocus autocomplete="off" v-model="newTarget" @keyup.enter="addTarget">
         <ul class="targets-list">
             <li v-for="target in targets" :key="target.id">
